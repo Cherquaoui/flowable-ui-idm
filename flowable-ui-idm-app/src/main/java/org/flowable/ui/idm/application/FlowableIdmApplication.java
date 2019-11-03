@@ -23,6 +23,7 @@ import org.springframework.context.annotation.Import;
  * @author Filip Hrisafov
  */
 @Import({
+
     ApplicationConfiguration.class,
     AppDispatcherServletConfiguration.class
 })
